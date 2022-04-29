@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import rabbitTest from '@/components/rabbitTest'
 import battlefield from '@/components/battlefield'
 import pressureTest from '@/components/pressureTest'
-import canvasTest from '@/components/canvasTest'
+import canvasShow from '@/components/canvasShow'
 import info from '@/components/info'
 import howtodo from '@/components/howtodo'
 import phoneField from '@/components/phoneField'
@@ -26,14 +26,14 @@ export default new Router({
       name: 'battlefield',
       component: battlefield
     },{
-      path: '/xx',
+      path: '/pressureTest',
       name: 'pressureTest',
       component: pressureTest
     }
     ,{
       path: '/',
-      name: 'canvasTest',
-      component: canvasTest
+      name: 'canvasShow',
+      component: canvasShow
     }
     ,{
       path: '/info',

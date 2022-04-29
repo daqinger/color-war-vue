@@ -1,4 +1,4 @@
-<!--  -->
+<!--本来想更完善的主页，后来想想还是算了，没什么人用  -->
 <template>
   <div class="container" v-loading="loading">
     <canvas id="canvas"></canvas>

@@ -1,8 +1,23 @@
 # color-war
+> 介绍
 
-> A Vue.js project
+在2017年4月1日愚人节,社交网站Reddit发布了一个全球性社会实验:每个用户每隔5分钟可以在一个1000x1000像素的画布上绘制一个色块... [相关视频连接](https://www.bilibili.com/video/av71160863?from=search&seid=14889639180811676751&spm_id_from=333.337.0.0)
 
-## Build Setup
+基于上面的创意，便有了此项目。
+
+前端采用 VUE+ [Element UI](https://element.eleme.cn/#/zh-CN)
+
+> 简陋的操作说明
+
+1. 玩法：每人每次只能填一个格子（因为是想复现原来网站的创意，而不是一个画画网站）
+
+2. 目前的设定：主页和分区更新时间是1分钟 ，一个分区数据推送时间是30s，所以您画的格子刷新后在主页看不到，不要着急，那也许是还没更新
+
+3. 注意事项：只有一点，，提交数据的契机只有打开选色板，点击确认后才会提交！！！！点击确认后才会提交！！！！点击确认后才会提交！！！！
+
+> 构建方法
+
+如果您只是想本地运行，在安装node.js 和 vue的前提下，只需执行以下两步：
 
 ``` bash
 # install dependencies
@@ -10,12 +25,13 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
+```
 
+如果您想将其打包放到nginx等服务器，打包命令如下:
+``` bash
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

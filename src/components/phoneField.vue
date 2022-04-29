@@ -1,4 +1,4 @@
-<!--主战场  -->
+<!--主战场  手机版本-->
 <template>
   <div class="container">
     <div class="option">
