@@ -15,6 +15,36 @@
 
 3. 注意事项：只有一点，，提交数据的契机只有打开选色板，点击确认后才会提交！！！！点击确认后才会提交！！！！点击确认后才会提交！！！！
 
+### 项目截图
+
+> 项目首页，目前是400*400 像素，可随时扩展
+
+![images](https://read-me.oss-cn-hangzhou.aliyuncs.com/project/color-war/4.png)
+
+> 主战场
+
+![images](https://read-me.oss-cn-hangzhou.aliyuncs.com/project/color-war/3.png)
+
+> 移动端适配
+
+![images](https://read-me.oss-cn-hangzhou.aliyuncs.com/project/color-war/5.png)
+
+> 项目上线的时候，网友们(同学、家人)的优秀作品合集
+
+![images](https://read-me.oss-cn-hangzhou.aliyuncs.com/project/color-war/6.jpg)
+
+> 最终样子
+
+![images](https://read-me.oss-cn-hangzhou.aliyuncs.com/project/color-war/7.png)
+
+> 定时任务截图
+
+![images](https://read-me.oss-cn-hangzhou.aliyuncs.com/project/color-war/1.png)
+
+> 定时任务执行情况截图
+
+![images](https://read-me.oss-cn-hangzhou.aliyuncs.com/project/color-war/2.png)
+
 > 构建方法
 
 如果您只是想本地运行，在安装node.js 和 vue的前提下，只需执行以下两步：
